@@ -1,3 +1,6 @@
+# https://github.com/EmincanY
+
+
 1) Manuel değerleri el ile girerek 3 boyutlu bir array oluşturup bir değişkene atayın. Ardından 3 boyutlu olup olmadığına bakmak için dimension'ını kontrol edin
 2) 34, 40, 46, 52... 112 şeklinde devam eden 1 boyutlu bir array oluşturun.
 3) 50-500 arasında lineer artış gösteren 91 tane tam sayıdan oluşan bir array oluşturun.(dtype'ı int olsun)
