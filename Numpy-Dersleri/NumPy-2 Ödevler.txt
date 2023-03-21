@@ -1,0 +1,23 @@
+# https://github.com/EmincanY
+
+
+1) 0-29 arası(29 dahil, toplam 30 tam sayı) tam sayılardan oluşan bir boyutlu bir array oluşturun ardından bu array'in shape'ini (15,2) şeklinde güncelleyip 2 boyutlu hale getirin.
+2) 60 adet rastgele tam sayı verilerinden oluşan bir boyutlu bir array oluşturun. Devamında bu array'i istediğiniz shapelerde 3 boyutlu hale getirin ve son durumda oluşan array'in boyutunu ve shape'ini kontrol edin.
+3) 20 elemanlı ve sadece rakamlardan oluşan iki boyutlu bir array oluşturun. Ardından bu array'i düzleştirin ve tek boyutlu hale getirin ve son durumda oluşan array'in boyutunu ve shape'ini kontrol edin.
+4) İstediğiniz herhangi elemanlardan oluşan 2 Boyutlu bir array oluşturun. Oluşturduğunuz bu 2 boyutlu array'in içindeki bütün elemanları hem yavaş yol olan for döngüsüyle hem de daha hızlı yol olan uygun NumPy metoduyla tek tek dönerek ekrana yazdırın.
+5) 5,10,15,20,25,30 değerlerinden oluşan bir boyutlu bir array ve
+   1,2,3,4,5,6 değerlerinden oluşan başka bir boyutlu bir array oluşturun.
+   Bu arraylerinin elemanlarına kendi aralarında 4 işlem uygulayın. İki arrayinde 1.indexindekiler toplansın/çıkartılsın/çarpılsın/bölünsün gibi.
+6) 0-100 arası rastgele 10 tam sayıdan oluşan bir array oluşturun ve oluşturulan arrayin sum/mean/max/var/std değerlerini inceleyin.
+7) 0-20 arası(20 dahil değil) tam sayılardan oluşan ve 500-530(530 dahil) arası tam sayılardan oluşan 2 array oluşturun. Ardından bu iki array'i concatenate ederek ekrana yazdırın.
+8) 15-50(50 dahil) arası tam sayılardan oluşan bir array oluşturun. Daha sonra 10-100 arası(100 dahil) tam sayılardan oluşan 2.bir array oluşturun. Bu 2 arrayi concatanate ederek 3.bir array oluşturun ve bu array'in 25.index ile 50.index'i(50 dahil) arasındaki değerlerini 888 yapın.
+9) 0-40(40 dahil değil) arası değerlerden oluşan (8,5) shape'inde 2 boyutlu bir array ve  320-360(360 dahil değil) değerlerinden oluşan (8,5) shape'inde 2 boyutlubaşka bir array oluşturun. Devamında bu iki array'i hem axis = 0'da hem de axis = 1'de concatenate ederek farkı karşılaştırın.
+10) 9.Soruda oluşturduğunuz 2 array'i axis = 2'de concatenate etmeye çalışın. Ardından axis = 2'de stacklemeye(yığınlamaya) çalışın. İkisi arasındaki farkı karşılaştırın.
+11) [1, 20, 25, 4, 4, 5, 4, 4, 1, 6, 9, 12, 1, 5] değerlerinden oluşan bir boyutlu bir array oluşturun. Devamında bu array'in içinde değeri 5'e eşit olan değerlerin indexleri bulun.
+12) Yukarıda oluşturduğunuz array içinde değeri çift olan değerlerin indexlerini bulun.
+13) Yukarıda oluşturduğunuz array içinde değeri 4'den büyük olan değerlerin indexlerini bulun.
+14) Yukarıda oluşturduğunuz array içinde değeri 5'e tam bölünen değerlerin indexlerini bulun.
+15) 85-100(100 dahil) arasından rastgele 1 tam sayı seçin
+16) İki basamaklı tam sayılar arasından rastgele sayılar seçerek (3,3) shape'inde bir array oluşturun.
+17) 35-60 arasındaki tam sayılardan bir array oluşturun, ardından bu array içinden rastgele 1 tam sayı seçin.
+18) Sadece [3, 8, 10, 53] değerlerinden oluşan (2,5) shape'inde 2 boyutlu bir array oluşturun.
