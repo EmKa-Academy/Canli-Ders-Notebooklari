@@ -1,0 +1,55 @@
+@EmKa Akademi
+
+- Evrensel kısaltmaları kullanarak numpy ve pandas kütüphanelerini import ediniz.
+
+1) İndexlerinde "Breaking Bad" , "Chernobyl" , "Leyla ile Mecnun" , "X-Men"  , "Captain America"  , "Disaster Movie" olan 
+   Datasında 9.4 , 9.3 , 8.8 , 8.4 , 3.8 , 2.1 olan bir seri oluşturun.(2 Farklı yolla da oluşturun) (Datayı ve İndexleri liste olarak göndererek ve doğrudan dictionary göndererek.)
+
+
+2) donem1_mat adında bir seri oluşturun. Bu serinin içinde "Ali" ,"Deniz" ,"Aslı" ,"Burak" ,"Kerem" ,"Yasemin" ,"Derya" index değerleri olsun, 
+   85, 80 , 94 , 74 , 91 , 96 , 70 data değerleri olsun. Bu şekilde donem1 adında öğrencilerin 1.dönem matematik nor ortalamalarının tutulduğu bir seri oluşturun.
+
+   donem2_mat adında başka bir seri oluşturun. Okula yeni bir öğrenci gelmiş olsun ve indexlerde bu sefer "Ali" ,"Deniz" ,"Aslı" ,"Burak" ,"Kerem" ,"Yasemin" ,"Derya" ,"Mert"         indexleri olsun. 80, 92 , 85 , 87, 90 , 92, 100, 83 ise dataları olsun. Bu iki seriyi birleştirerek bütün öğrencilerin yıl sonu matematik ORTALAMASINI hesaplayın.
+
+   Not : Eğer bir öğrencinin sadece ikinci dönem notu bulunuyorsa, birinci dönem hesaba eklenmeden ikinci dönem notu yıl sonu notu olarak hesaplansın.
+
+
+3) İndexlerinde "Osman", "Ozlem", "İnci", "Koray", "Melek" olan, columnlarında "Sınıf" , "Cinsiyet" , "Favori Ders" isimlerinde 3 column bulunan bir DF oluşturacaksınız. Osman'ın sınıfı 8 , cinsiyeti "E" , Favori Dersi "Fen"
+Ozlem'in sınıfı 11 , cinsiyeti "K" , Favori Dersi "Mat"
+İnci'nin sınıfı 5 , cinsiyeti "K" , Favori Dersi "Sosyal"
+Koray'ın sınıfı 9 , cinsiyeti "E" , Favori Dersi "Mat"
+Meleğin sınıfı 7 , cinsiyeti "K" , Favori Dersi "Ing"          Olacak şekilde bir df oluşturun.
+
+4) GitHubda bulunan "Advertising.csv" reklam datasını herhangi bir platformda DF olarak okuyun ve "df_adv" adında bir değişkene atayın. Ardından df_adv değişkeninin ilk 3 satırına, son 3 satırına , rastgele 3 satırına bakın.
+
+5) Elde ettiğiniz "df_adv" infosuna ve describe'ına bakın ve yorumlamaya çalışın.
+
+6) df_adv içinden sadece "TV" sütununu seri olarak çekin.
+
+7) df_adv içinden "TV" ve "sales" sütununu çekin ve df_salesTV adında bir değişkene atayın.
+
+8) df_adv içindeki "TV" , "radio" , "newspaper" sütunlarındaki değerleri toplayarak "total_adv" adında yeni bir sütun oluşturun.
+
+9) df_adv içindeki "sales" sütununun drop edilmiş halini ekrana yazdırın. (Kalıcı hale getirmeyin. Sadece ekrana bastırın)
+
+10) df_adv içindeki son 50 index'i(satırı) çekin ve ekrana yazdırın.
+
+11) df_adv içinde satışları 25'den fazla olanları getirin.
+
+12) df_adv içinde "TV" reklamlarına 250'den fazla VE "newspaper" reklamlarına 60'dan fazla harcama yapanları getirin.
+
+13) df_adv içinde "newspaper" reklam harcamaları 70'den fazla VEYA "radio" reklam harcamaları 50'den fazla olanları getirin.
+
+14) df_adv içinde "sales" ları 10 ile 15(10 ve 15 dahil) arasında olanları getirin.
+
+15) df_adv içinde "sales" ları tam olarak 18.3 veya 14.0 veya 25.5 veya 21.7 veya 13.6 veya 6.9 olanları getirin.
+
+16) GitHubda bulunan "tips.csv" restoran datasını "df_tips" adıyla okuyun. Ardından ilk 5 satırına bakın.
+
+17) df_tips'in "CC Number" ve "Payment ID" column'larını kalıcı olarak düşürün.
+
+18) df_tips'in "Payer Name" column'unu kalıcı olarak index yapın ve artık columndan düşürün.
+
+19) df_tips içindeki kayıtlardan kişi sayısı 4 veya 4'den fazla olan siparişlerin kaç tane olduğunu bulun.(Sorguyu yazıp istediğimiz satırları getirdikten sonra basitçe len() fonksiyonunu kullanarak sayılarını bulabilirsiniz. Veya daha güzeli .shape[0] yaparak elde ettiğiniz sorguda kaç satır olduğunun sayısına ulaşabilirsiniz.)
+
+20) df_tips içindeki Kişi sayısı 2 ya da 3 olan, sigara içen, erkek olan ve ödediği ücret 20 dolardan az olan kişi sayısını bulalım.
