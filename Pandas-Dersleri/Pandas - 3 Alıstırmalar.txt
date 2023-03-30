@@ -1,0 +1,19 @@
+mpg.csv dosyasını okuyun ve df değişkenine atayın.
+
+1) df'in içindeki sütunların birbirleriyle olan korelasyonlarına(ilişkilerine) bakın.
+2) mpg sütunu ile diğer sütunların arasındaki korelasyonları özel olarak inceleyin.(Bunu göstermedik ama df.corr() çağırdıktan sonra aynı normal df'lerde olduğu gibi istediğiniz sütunu çağırabiliyorsunuz.)
+3) cylinders sütununda hangi unique değerler olduğuna liste halinde bakın.
+4) cylinders sütunundaki unique değerlerin her birinden kaçar adet olduğuna bakın.
+5) Arabanın modeli 75-80 yılları arasındaki arabaların hepsini getirin.(75 ve 80 dahil)
+6) horsepower'ı 155-180 arasındaki arabaların hepsini getirin.(155 dahil, 180 dahil değil)(Bu sorguyu yapabilmeniz için horsepower sütununu object durumdan float duruma getirmeniz gerekiyor.)
+7) Elinizdeki df'i horsepower'a göre büyükten küçüğe sıralayın ardından df'in indexlerini sıfırlayın.
+8) Elinizdeki df'den en küçük 5 acceralation'a sahip olan arabaları getirin.
+
+--- CIA_Country_Facts.csv dosyasını okuyun ve yeniden df değişkenine atayın.(Artık eski df ile işimiz kalmadığı için aynı ismi verebiliriz.)
+9) Elimizdeki CIA'in ülkeler hakkında topladığı basit açık kaynak verileri df'inde kaç ülkenin verisi olduğunu bulun.
+10) Elimizdeki sütunlardan hangilerinde kaçar tane nan veri olduğunu bulun.
+11) Elimizde tamamen nan değerlerden oluşan bir satır varsa o satırı düşürün.(Tamamen nan değerlerden oluşan bir satır olup olmadığını, herhangi bir satırın düşüp düşmediğini kontrol edin)
+12) Her Bölgedeki(Region) toplam kişi sayısına bakın.
+13) Climate değerleri nan olanlar, tüm df'in ortalama climate değeriyle doldurun.(Gerçek bir analiz yapıyor olsaydık bu çok mantıklı bir hareket olmazdı, belki her bulunduğu bölgenin ortalama climate değeriyle doldurmak daha mantıklı bir hareket olurdu. Fakat şimdilik bu kadar kasmaya gerek yok. nan değerleri tüm climate ortalamalarıyla doldursanız yeterli.)
+14) Bölgeler ve Ülkelere göre gruplama yapın ardından Doğum miktarlarına bakın.
+15) Veriyi istediğiniz şekilde inceleyerek bu zamana kadar öğrendiğiniz bilgilerle anlamlı 5 adet yargı cümlesi çıkartın. ( En çok insan Asya kıtasında yaşıyor, En çok insan Afrinın sahralarında ölüyor, Ortalama en yüksek telefon sahibi Kuzey Amerikada, En çok okuma yazma oranına sahip ülkeler Baltık ülkeleri vb.)
